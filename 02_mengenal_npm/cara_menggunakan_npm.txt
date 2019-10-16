@@ -1,0 +1,30 @@
+-- install 
+npm install moment
+
+-- install untuk dev
+npm install gulp --save-dev
+
+-- install global
+sudo npm install gulp -g
+
+
+-- uninstall module
+npm uninstall moment
+
+
+menjalankan script dengan npm
+-----------------------------
+"script": {
+  "hello": "echo \"Hello World !\"",
+  "server": "node index.js"
+}
+
+-- running
+$ npm run hello
+$ npm run server
+
+
+
+baca dokumentasi npm :
+----------------------
+$ npm -l

@@ -1,0 +1,3 @@
+- membuat project baru
+- menginstall modul library
+- menjalankan skrip command line

@@ -1,0 +1,22 @@
+{
+  "name": "belajar-npm",
+  "version": "1.0.0",
+  "description": "membuat project baru",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hallo": "echo \"Hello World with script\"",
+    "server": "node index.js"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "clay",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
