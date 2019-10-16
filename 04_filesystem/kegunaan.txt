@@ -1,0 +1,22 @@
+Properties module fs :
+----------------------
+fs.open()  : membuat file atau menulis.
+
+
+Properties :
+------------ 
+r   : dibaca, jika tidak ada akan terjadi error
+r+  : dibaca & ditulis, jika tidak ada akan terjadi error
+rs  : dibaca, dalam mode syncronous
+rs+ : dibaca & ditulis, dalam mode asyncronous
+
+w   : ditulis
+wx  : ditulis, jika sudah ada akan error
+w+  : ditulis & dibaca
+wx+ : ditulis & dibaca, jika sudah ada akan error
+
+a   : diisi
+ax  : diisi, jika sudah ada filenya akan error
+a+  : diisi
+ax+ : diisi, jika sudah ada filenya akan error
+
